@@ -16,7 +16,7 @@ int main() {
     for(i = 0; str[i] != '\0'; i++) {
         if(stack[top--] != str[i]) {
             printf("Not a palindrome\n");
-            exit(0);
+            return 0;
         }
     }
 
